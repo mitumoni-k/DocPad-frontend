@@ -95,7 +95,7 @@ const DocPadApp = () => {
           <section className="mb-8">
             <h2 className="mx-[1rem] text-2xl mt-[5rem] font-semibold mb-1  bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-pink-600">Extract Highlights with Ease</h2>
             <p className="mx-[1rem] text-[18px] md:text-lg mb-4 font-mono">Upload your PDF or DOCX files and let <strong>DocPad</strong> do the magic!</p>
-            <form onSubmit={handleSubmit} className="space-y-2 mt-[2px] md:mx-[6rem] xl:mx-[10rem]">
+            <form onSubmit={handleSubmit} className="space-y-2 mt-[2px] mx-[1rem] md:mx-[6rem] xl:mx-[10rem]">
               <div className="flex items-center justify-center w-full">
                 <label
                   htmlFor="file-upload"
